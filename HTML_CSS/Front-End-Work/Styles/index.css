@@ -1,0 +1,28 @@
+/* body {
+    background-color: darkslategray;
+    color: black;
+    font-size: 1.1em;
+}
+
+h1 {
+    color: coral;
+}
+
+
+#intro {
+    font-size: 1.3;
+}
+
+.colorful {
+    color: orange;
+}
+
+section {
+    border: 5px solid black;
+    padding: 10px;
+    background-color: #dbfffe;
+} */
+
+p:last-child {
+    background: red;
+}
