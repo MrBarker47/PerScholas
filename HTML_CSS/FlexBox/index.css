@@ -1,0 +1,49 @@
+.container {
+   display: flex;
+   width: 340px;
+   height: 340px;
+   flex-wrap: wrap;
+    justify-content: space-between;
+
+
+
+
+}
+
+
+.boxes {
+    border: .1px solid;
+    width: 99px;
+    height: 99px;
+    text-align: center;
+    font-size: 30px;
+  
+   
+
+}
+
+#box1 {
+    background-color: green;
+  
+}
+
+
+#box2 {
+    background-color: yellow;
+}
+#box3 {
+    background-color: pink;
+}
+#box4 {
+    background-color: blue;
+    
+}
+
+#box5 {
+    background-color: red;
+}
+
+#box6 {
+    background-color: orange;
+}
+
