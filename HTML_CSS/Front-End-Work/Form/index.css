@@ -1,0 +1,13 @@
+form {
+    border: 2px solid rgb(15, 14, 14);
+    margin: 200px;
+    
+}
+
+#UserName {
+    width: 90px;
+}
+
+#passWord {
+    width: 90px;
+}
