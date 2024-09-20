@@ -1,0 +1,45 @@
+.main_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* section1 */
+.section1{
+    display: flex;
+    border: 7px solid rgb(0, 251, 255);
+    flex-wrap: wrap;
+   
+}
+
+.name, .design {
+    display: flex;
+}
+
+aside {
+    margin-left: 700px;
+}
+
+.box2 {
+    margin-left: auto;
+    border: 7px solid red;
+
+
+}
+
+/* section2 */
+.section2 {
+   border: 7px orange solid;
+   width:900px;
+
+   
+}
+
+/* section3 */
+.section3 {
+    border: 7px solid black;
+    text-align: center;
+    width: 494px;
+
+    
+}
