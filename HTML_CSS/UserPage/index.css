@@ -1,6 +1,39 @@
+body {
+    background-color:  #f1eee3;
+}
+
+.bg-light {
+    background-color: rgb(249, 222, 103) !important;
+}
 
 .flex-container {
     display: flex;
     column-gap: 520px;
     margin: 20px;
+    
+}
+
+.card1 {
+    margin-left: 50px;
+}
+
+.left {
+    height: 2px;
+    margin-top: 30px;
+
+}
+
+#card {
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+
+.flex-container2 {
+    display: flex;
+   
+}
+
+form {
+    margin-left: 400px;
 }
