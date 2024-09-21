@@ -1,5 +1,9 @@
 body {
-    background-color:  #f8df86;
+    background-color:  #c8c7c1;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3BTqcty_Uwn9nDPoKrm0z3UXDhcS4n1iWzg&s);
+ 
+    /* background-size: cover; */
+    background-blend-mode:overlay ;
 }
 
 .bg-light {
@@ -37,8 +41,10 @@ body {
 
 
 
-.form{
+.form {
     margin-left: 400px;
-    height: 500px;
+    padding: 20px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
 }
 
