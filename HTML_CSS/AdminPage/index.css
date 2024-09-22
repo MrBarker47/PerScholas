@@ -29,8 +29,10 @@
 }
 
 /* SideBar */
+
+
 .sidebar {
-    position: fixed;
+    position: absolute;
     top: 40px;
     bottom: 0;
     width: 240px;
@@ -60,3 +62,4 @@ button:hover {
 hr {
     visibility: hidden;
 }
+
