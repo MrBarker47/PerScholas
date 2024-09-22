@@ -1,5 +1,5 @@
 const ctx = document.getElementById('myChart');
-const ctx2 = document.getElementById('newChart')
+const game = document.getElementById('gameChart')
 
   new Chart(ctx, {
     type: 'bar',
@@ -21,4 +21,3 @@ const ctx2 = document.getElementById('newChart')
   });
 
 //   Second Chart
-
