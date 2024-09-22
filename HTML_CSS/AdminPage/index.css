@@ -1,0 +1,40 @@
+    body {
+        background-color: rgb(72, 72, 70);
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3BTqcty_Uwn9nDPoKrm0z3UXDhcS4n1iWzg&s);
+        background-blend-mode:hard-light; 
+    }
+    
+    main-container {
+        display: flex;
+    }
+    
+ .nav {
+    background-color: rgb(231, 135, 75);
+    font-family: "Sofadi One", system-ui;
+}
+
+.nav-link {
+    color: rgb(0, 0, 0);
+    margin-left: 900px;
+}
+
+/* Body Page */
+.center{
+    text-align: center;
+    margin-top:20px ;
+    font-family: "Sofadi One", system-ui;
+    color: rgb(0, 0, 0);
+    background-color: beige;
+    margin-top: 0px;
+}
+
+/* SideBar */
+.sidebar {
+    position: fixed;
+    top: 40px;
+    bottom: 0;
+    width: 240px;
+    background-color: rgb(234, 202, 137) !important;
+  }
+
+/* The Charts */
