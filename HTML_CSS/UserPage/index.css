@@ -17,6 +17,22 @@ body {
     
 }
 
+.navbar-brand {
+    margin-right: 200px;
+    font-size: xx-large;
+}
+
+ul {
+    display: flex;
+    margin-top: 20px;
+}
+
+.list li {
+    list-style-type: none;
+    margin-left: 20px;
+    text-align: center;
+}
+
 .card1 {
     margin-left: 50px;
 }
