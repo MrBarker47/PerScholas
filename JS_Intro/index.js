@@ -88,3 +88,9 @@ console.log(isValid);
 
 // Part 2 
 let trip = 1500;
+
+let miles = 55 / 30;
+
+let miles2 = 60/28;
+
+let newMiles = 75 / 23;
