@@ -79,4 +79,12 @@ console.log(newMath);
 const isOver25 = (!n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25);
 console.log(isOver25);
 
+
+const isUnique = n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4;
+console.log(isUnique);
+
+const isValid = !isSum50 && isTwoOdd && !isOver25 && isUnique;
+console.log(isValid);
+
 // Part 2 
+let trip = 1500;
