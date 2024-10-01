@@ -1,17 +1,22 @@
-let fizz = 3;
-let Buzz = 5;
+//Part 1
+// let fizz = 3;
+// let Buzz = 5;
 
-for(let i = 1; i <= 100; i++) {
-  console.log(i);
-  if(i % fizz === 0) {
-    console.log("Fizz");
+// for(let i = 1; i <= 100; i++) {
+//   console.log(i);
+//   if(i % fizz === 0) {
+//     console.log("Fizz");
 
-  } else if (i % Buzz === 0) {
-       console.log("Buzz");
+//   } else if (i % Buzz === 0) {
+//        console.log("Buzz");
     
-   } else if (i % 3 && 5) {
-       console.log("FizzBuzz");
-    }
+//    } else if (i % 3 && 5) {
+//        console.log("FizzBuzz");
 
-}
+//       } 
 
+// }
+
+//Part 2 Prime Time
+// let n = 2;
+// let prime = "";

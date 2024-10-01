@@ -1,8 +1,9 @@
-//Part 1: Growing Pains
-const PI = 3.1415;
-const radius = 78.5;
+// Part 1: Growing Pains
+const PI = 3.14;
+const radius = 5;
 const area = PI * radius * radius;
 let growth  = area;
+let newArea = 0.8;
 if(growth > 80) {
     console.log("Pruned") 
 } else if(growth > 50) {
@@ -15,15 +16,14 @@ if(growth > 80) {
 
 
 
-
 //Part 2: Thinking Bigger
-let week = 10;
-function newArea(PI, week) {
-    return Math.sqrt(week);
+let plants = 100;
+let weeks = plants ** 10;
+let garden = weeks * newArea;
+function sqaure() {
+    return Math.sqrt(plants / PI);
 }
 
-
-
-
+console.log(sqaure());
 
 //Part 3: Errors in Judgement 
