@@ -14,6 +14,8 @@ let data2 = [{id: "42", name: "Bruce", occupation: "Knight", age: "41"},
                 {id: "63", name: "Blaine", occupation: "Quiz Master", age: "58"},
                 {id: "98", name: "Bill", occupation: "Doctor's Assistant", age: "26"}]
 
+
+
 data2.pop(3);
 
 let index = 1;
