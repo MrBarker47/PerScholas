@@ -34,9 +34,11 @@
 //     console.log(name);
 // })();
 
-let x = 5;
+let myVar = 20;
 
-{
-    console.log(x);
-    let x = 6;
+function passBy(myVar) {
+    myVar = myVar * 10;
+    console.log(myVar);
 }
+
+passBy(myVar);
