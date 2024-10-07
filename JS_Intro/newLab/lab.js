@@ -46,4 +46,8 @@ let container = [{id: "42", name: "Bruce", occupation: "Knight", age: "41"},
                 container.sort((a, b) => a.age - b.age);
                 console.log(container);
 
-                //
+                //filter container
+
+        // let n = container.filter(remove => remove.id += 4);
+
+        // console.log(n.length);
