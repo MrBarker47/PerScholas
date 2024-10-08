@@ -44,10 +44,32 @@ let container = [{id: "42", name: "Bruce", occupation: "Knight", age: "41"},
 
                 
                 container.sort((a, b) => a.age - b.age);
-                console.log(container);
+                // console.log(container);
 
-                //filter container
+        //filter container
 
-        // let n = container.filter(remove => remove.id += 4);
+        let j = container.filter(remove => remove.age < 50);
 
-        // console.log(n.length);
+        console.log(j);
+    
+
+        //Map Container
+        let e = container.map((change) => change.occupation = 'Job');
+        let t = container.map((a) => a.age - -1);
+
+        console.log(e);
+        console.log(t);
+
+        //Reduce Container
+        let count = container.age;
+        let newCount = container.reduce((count, sum) => count += sum);
+        console.log(newCount);
+        //Thinking Criticaly 
+            function age() {
+                for(let i = 0; i < container.age; i++) {
+                    container.age += 1;
+                }
+                console.log(age);
+            }
+
+            age();
