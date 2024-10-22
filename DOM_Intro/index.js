@@ -27,13 +27,8 @@
 // ol.style.border = "4px solid blue";
 // ul.style.border = "4px solid red";
 
-let body = document.querySelector('body');
-let h1 = document.getElementById('html');
-let paragraph = document.createElement('p');
+let movies = ["Shrek", "Caddyshack", "Batman", "Interstaller"];
 
-
-
-h1.innerHTML = "Jamaal Barker";
-body.appendChild(paragraph).textContent = "Hello World";
-
-
+movies.forEach((movie) => {
+    console.log(movie);
+});
