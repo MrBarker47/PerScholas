@@ -22,17 +22,28 @@ function newArray() {
 
 newArray();
 
-//Take an array of strings and return the longest string
-// function str() {
-//     let newString = ['Money Talks', 'Friday', 'Rush Hour 2', 'Low Down Dirty Shame'];
-//     let long = 0;
-//     for(let i = 0; i < newString.length; i++) {
-//             return long = newString[i];
-//     }
-  
-// }
+// Take an array of strings and return the longest string
+function str() {
+    let newString = ['Money Talks', 'Friday', 'Rush Hour 2', 'Low Down Dirty Shame'];
+    let string = 0;
+    let long;
+    for(let i = 0; i < newString.length; i++) {
+        if(newString[i].length > string) {
+            let string = newString[i].length;
+            long = newString[i];
+            
+        }
+        
 
-// console.log(str());
+    }
+
+   console.log(long);
+}
+
+
+console.log(str());
+
+
 
 //Part 2 Thinking Methodically
 // let container = [{id: "42", name: "Bruce", occupation: "Knight", age: "41"},
