@@ -8,7 +8,7 @@ function array() {
         }
       console.log(sum);
     }
-array();
+// array();
 
 //Take array of numbers and return the average.
 function newArray() {
@@ -20,7 +20,7 @@ function newArray() {
     console.log(avg / newList.length) ;
 }
 
-newArray();
+// newArray();
 
 // Take an array of strings and return the longest string
 function str() {
@@ -31,37 +31,29 @@ function str() {
         if(newString[i].length > string) {
             let string = newString[i].length;
             long = newString[i];
-            
         }
-        
-
     }
-
-   console.log(long);
+    console.log(long);
 }
-
-
-console.log(str());
+// console.log(str());
 
 
 
 //Part 2 Thinking Methodically
-// let container = [{id: "42", name: "Bruce", occupation: "Knight", age: "41"},
-//                  {id: "48", name: "Barry", occupation: "Runner", age: "25"},
-//                  {id: "57", name: "Bob", occupation: "Fry Cook", age: "19"},
-//                  {id: "63", name: "Blaine", occupation: "Quiz Master", age: "58"},
-//                  {id: "7", name:   "Bilbo", occupation: "None", age: "111"}
-//                 ];
+let container = [{id: "42", name: "Bruce", occupation: "Knight", age: "41"},
+                 {id: "48", name: "Barry", occupation: "Runner", age: "25"},
+                 {id: "57", name: "Bob", occupation: "Fry Cook", age: "19"},
+                 {id: "63", name: "Blaine", occupation: "Quiz Master", age: "58"},
+                 {id: "7", name:   "Bilbo", occupation: "None", age: "111"}
+                ];
 
                 
-//                 container.sort((a, b) => a.age - b.age);
-//                 // console.log(container);
+                container.sort((a, b) => a.age - b.age);
+                console.log(container);
 
-        //filter container
-
-        // let j = container.filter(remove => remove.age < 50);
-
-        // console.log(j);
+        // filter container
+        let j = container.filter(remove => remove.age < 50);
+        console.log(j); 
     
 
         //Map Container
