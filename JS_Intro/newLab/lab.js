@@ -8,7 +8,7 @@ function array() {
         }
       console.log(sum);
     }
-// array();
+array();
 
 //Take array of numbers and return the average.
 function newArray() {
@@ -17,7 +17,7 @@ function newArray() {
     for(let i = 0; i < newList.length; i++) {
        avg += newList[i];
     }
-    console.log(avg / newList.length) ;
+    // console.log(avg / newList.length) ;
 }
 
 // newArray();
@@ -33,7 +33,7 @@ function str() {
             long = newString[i];
         }
     }
-    console.log(long);
+    // console.log(long);
 }
 // console.log(str());
 
@@ -48,12 +48,12 @@ let container = [{id: "42", name: "Bruce", occupation: "Knight", age: "41"},
                 ];
 
                 
-                container.sort((a, b) => a.age - b.age);
-                console.log(container);
+                // container.sort((a, b) => a.age - b.age);
+                // console.log(container);
 
         // filter container
-        let j = container.filter(remove => remove.age < 50);
-        console.log(j); 
+        // let j = container.filter(remove => remove.age < 50);
+        // console.log(j); 
     
 
         //Map Container
