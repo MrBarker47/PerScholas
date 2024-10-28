@@ -61,6 +61,8 @@ let averageCost = 3;
 
 //How many gallons of fuel will you need for the entire trip?
 // let miles = 55 / 30;
+let question1 = miles / gallon;
+console.log(question1);
 
 //Will your budget be enough to cover the fuel expense? 
 // let miles2 = 60/28;
