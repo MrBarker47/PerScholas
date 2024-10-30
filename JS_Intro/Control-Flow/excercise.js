@@ -66,7 +66,11 @@ console.log(question1);
 
 //Will your budget be enough to cover the fuel expense? 
 // let miles2 = 60/28;
+let question2 = miles2 / gallon2;
+console.log(question2);
 
 
 //How long will the trip take, in hours?
 // let newMiles = 75 / 23;
+let question3 = miles3 / gallon3;
+console.log(question3);
