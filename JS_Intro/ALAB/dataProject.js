@@ -1,5 +1,4 @@
 // Data Collecting
-
 const data = [["ID", "Name", "Occupation", "Age"],
               ["42", "Bruce", "Knight", "41"],
               ["57", "Bob", "Fry Cook", "19"],
