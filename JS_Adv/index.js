@@ -9,13 +9,19 @@ function labWork(n) {
 }
 labWork(4);
 
-
-
 function labWork(n) {
     if(n === 0) {
        return (1);
         return (n * factorial(n - 1));
     }
+}
+
+let trampoline = (f, ...args) => {
+    let result = f(...args);
+    while (typeof result === "function") {
+        result = result();
+    }   
+    return result;
 }
 
 labWork();
